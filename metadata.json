@@ -1,0 +1,5 @@
+{
+  "name": "Interactive Technical Specification Viewer",
+  "description": "An interactive web application for technical personnel to browse and get AI-powered summaries of a detailed equipment specification document. This app uses the Gemini API to analyze and summarize technical requirements.",
+  "requestFramePermissions": []
+}
