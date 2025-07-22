@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { DOCUMENT_DATA } from './constants';
-import Sidebar from './components/Sidebar';
-import ContentDisplay from './components/ContentDisplay';
-import { Section } from './types';
-import { LogoIcon } from './components/IconComponents';
+import { DOCUMENT_DATA } from './constants.ts';
+import Sidebar from './components/Sidebar.tsx';
+import ContentDisplay from './components/ContentDisplay.tsx';
+import { Section } from './types.ts';
+import { LogoIcon } from './components/IconComponents.tsx';
 
 const App: React.FC = () => {
   const [selectedSectionId, setSelectedSectionId] = useState<string>('1.1');
